@@ -1,6 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import Comanda from "./screens/Comanda";
 import Login from "./screens/Login";
+import CriarConta from "./screens/CriarConta";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const Stack = createNativeStackNavigator();
