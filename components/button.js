@@ -1,9 +1,8 @@
 import { StyleSheet, Text, TouchableOpacity } from "react-native"
-import { clickProps } from "react-native-web/dist/cjs/modules/forwardedProps"
 
 export default function Button({children, ...props}) {
     return (
-        <TouchableOpacity>
+        <TouchableOpacity {...props}>
             <Text style={styles.button}> {children} </Text>
         </TouchableOpacity>
     )

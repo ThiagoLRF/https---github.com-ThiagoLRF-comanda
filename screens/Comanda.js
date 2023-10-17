@@ -1,23 +1,32 @@
-import { StyleSheet, Text, View } from "react-native"
-import Button from "../components/button"
-import Input from "../components/input"
+import { StyleSheet, Text, View } from "react-native";
+import Button from "../components/button";
+import Input from "../components/input";
 
 export default function Comanda(){
     return(
-      <view style={style.conterner}>
-        
-        <view>
-            <text>Olá,</text>
-            <text>Thiago Leandro</text>
-        </view>
-        
+        <View style={styles.container}>
 
-        </view>
-            
+            <View>
+                <Text>Olá,</Text>
+                <Text>Thiago Leandro</Text>
+            </View>
+
+            <View>
+                <Input />
+                <Button>confirmar</Button>
+            </View>
+
+            <Text>
+                Digite o código da comanda 
+                para iniciar um pedido
+            </Text>
+
+        </View>
 
     )
-
 }
+
+
 const styles = StyleSheet.create({
     container: {
       flex: 1,
