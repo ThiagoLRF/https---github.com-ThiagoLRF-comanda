@@ -4,6 +4,7 @@ import { ScrollView, Text, TextInput, View } from 'react-native';
 import CardProduto from '../components/card.js';
 import { StyleSheet } from 'react-native';
 import Button from '../components/button.js';
+import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 const produto = {

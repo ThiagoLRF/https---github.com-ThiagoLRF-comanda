@@ -17,11 +17,9 @@ export default function Login({navigation}) {
         Entrar
       </Button>
       
-      <Button onPress={() => navigation.navigate('CriarConta')}>
-        Criar Conta
-      </Button>
-        
-      
+      <TouchableOpacity >
+        <Text>criar conta</Text>
+      </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );
