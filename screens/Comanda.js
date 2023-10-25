@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Button from "../components/button";
 import Input from "../components/input";
 
+
 export default function Comanda({navigation}){
     return(
         <View style={styles.container}>
